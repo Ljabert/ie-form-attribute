@@ -13,9 +13,9 @@ Just include the script in your webpage and it'll do the rest.
 
 ## Using with IE-9 and IE-10
 
-To use it with IE-9 and IE-10 you need a `MutationObserver`-polyfill.
+You need a `MutationObserver`-polyfill to use it with IE-9 and IE-10.
 
-You can find one made by [megawac](https://github.com/megawac/MutationObserver.js/blob/master/MutationObserver.js).
+You can find it yourself, or use one made by [megawac](https://github.com/megawac/MutationObserver.js/blob/master/MutationObserver.js).
 
 ## Using with IE-8 and below
 

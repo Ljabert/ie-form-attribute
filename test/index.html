@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <script src="../dist/ie-form-attribute.min.js"></script>
+    </head>
+    <body>
+        <p>
+            Press the Button below to test if the polyfill works.
+        </p>
+        <form id="foo" target="_blank" action="success.html" method="get" onsubmit="alert('Success!')">
+            <input type="hidden" name="success" value="true">
+        </form>
+        <button type="submit" form="foo">
+            Submit
+        </button>
+    </body>
+</html>

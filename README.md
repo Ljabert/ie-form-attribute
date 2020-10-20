@@ -25,4 +25,6 @@ I have no idea how to get it working.
 
 ## Using with old browsers other than IE
 
-It might work, just try it.
+I think every other browser except Edge (before version 16) does not need a polyfill. ([source](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/button#Browser_compatibility))
+
+I did not test it with the legacy Edge releases, so you will need to test it for yourself.

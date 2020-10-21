@@ -1,4 +1,4 @@
-type HTMLSubmitElement = HTMLButtonElement | HTMLInputElement | HTMLElement;
+type HTMLSubmitElement = HTMLButtonElement | HTMLInputElement | HTMLElement | Element;
 
 // Only execute on Internet Explorer
 if (window.navigator.userAgent.indexOf('Trident') !== -1) {
